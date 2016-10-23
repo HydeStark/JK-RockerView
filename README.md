@@ -1,8 +1,10 @@
+
 # JK-RockerView
 ![gif](https://github.com/jinkai1994/JK-RockerView/blob/master/rocker.gif)
 ##使用方法
 
-###①attr中定义自定义参数
+##①attr中定义自定义参数
+
       <!-- areaBackground 设置区域背景
          rockerBackground 设置摇杆的样式
          rockerScale 设置摇杆的相对于背景的比例
@@ -19,9 +21,10 @@
         </attr>
     </declare-styleable>
     
-    ###②复制RockerView到项目中
-    
-    ###③使用摇杆控件
+##②复制RockerView到项目中
+
+##③使用摇杆控件
+
     <org.jinkia.jk_rockerview.RockerView
         android:id="@+id/my_rocker"
         android:layout_width="200dp"
@@ -33,7 +36,7 @@
         app:rockerCallBackMode="CALL_BACK_MODE_STATE_CHANGE"
         app:rockerScale="0.5" />
         
-   ###③事件回调
+###③事件回调
    
      mRockerView.setOnShakeListener(DIRECTION_8, new RockerView.OnShakeListener() {
             @Override
