@@ -1,9 +1,7 @@
 
 # JK-RockerView
-
+#Android拟摇杆
 ![gif](https://github.com/jinkai1994/JK-RockerView/blob/master/rocker.gif)
-
-#Android模拟摇杆
 ##使用方法
 
 ##①attr中定义自定义参数
