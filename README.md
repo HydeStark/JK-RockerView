@@ -1,6 +1,9 @@
-
+  
 # JK-RockerView
-#Android拟摇杆
+
+#Android虚拟摇杆
+#Android虚拟摇杆
+#Android 拟摇杆
 ![gif](https://github.com/jinkai1994/JK-RockerView/blob/master/rocker.gif)
 ##使用方法
 
