@@ -1,5 +1,3 @@
-  
-# JK-RockerView
 
 #Android虚拟摇杆
 
