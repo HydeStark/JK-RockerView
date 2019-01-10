@@ -1,11 +1,11 @@
+Android虚拟摇杆
 
-#Android虚拟摇杆
 
-![gif](https://github.com/jinkai1994/JK-RockerView/blob/master/rocker.gif)
-##使用方法
 
-##①attr中定义自定义参数
-(```)
+使用方法
+
+①attr中定义自定义参数
+
       <!-- areaBackground 设置区域背景
          rockerBackground 设置摇杆的样式
          rockerScale 设置摇杆的相对于背景的比例
@@ -21,10 +21,10 @@
             <flag name="CALL_BACK_MODE_STATE_CHANGE" value="1" />
         </attr>
     </declare-styleable>
-(```)
-##②复制RockerView到项目中
 
-##③使用摇杆控件
+②复制RockerView到项目中
+
+③使用摇杆控件
 
     <org.jinkia.jk_rockerview.RockerView
         android:id="@+id/my_rocker"
@@ -36,15 +36,15 @@
         app:rockerSpeedLevel="10"
         app:rockerCallBackMode="CALL_BACK_MODE_STATE_CHANGE"
         app:rockerScale="0.5" />
-        
-###③事件回调
-   
+
+③事件回调
+
      mRockerView.setOnShakeListener(DIRECTION_8, new RockerView.OnShakeListener() {
             @Override
             public void onStart() {
-
+    
             }
-
+    
             @Override
             public void direction(RockerView.Direction direction) {
                 if (direction == RockerView.Direction.DIRECTION_CENTER){
@@ -67,33 +67,34 @@
                     mTvShake.setText("当前方向：右上");
                 }
             }
-
+    
             @Override
             public void onFinish() {
-
+    
             }
         });
         mRockerView.setOnAngleChangeListener(new RockerView.OnAngleChangeListener() {
             @Override
             public void onStart() {
-
+    
             }
-
+    
             @Override
             public void angle(double angle) {
                 mTvAngle.setText("当前角度："+angle);
             }
-
+    
             @Override
             public void onFinish() {
-
+    
             }
         });
-
+    
         mRockerView.setOnDistanceLevelListener(new RockerView.OnDistanceLevelListener() {
             @Override
             public void onDistanceLevel(int level) {
                 mTvLevel.setText("当前距离级别："+level);
             }
         });
-​
+
+
