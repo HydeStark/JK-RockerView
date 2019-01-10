@@ -5,7 +5,7 @@
 ##使用方法
 
 ##①attr中定义自定义参数
-
+(```)
       <!-- areaBackground 设置区域背景
          rockerBackground 设置摇杆的样式
          rockerScale 设置摇杆的相对于背景的比例
@@ -21,7 +21,7 @@
             <flag name="CALL_BACK_MODE_STATE_CHANGE" value="1" />
         </attr>
     </declare-styleable>
-    
+(```)
 ##②复制RockerView到项目中
 
 ##③使用摇杆控件
